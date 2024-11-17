@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             NavigationPage.HasNavigationBar="True"
+             Title="Sobre"
+             BackgroundColor="{StaticResource Gray100}">
+
+    <VerticalStackLayout Padding="20" VerticalOptions="CenterAndExpand" Spacing="15">
+        <Label Text="Sobre o App"
+               FontSize="25"
+               FontAttributes="Bold"
+               TextColor="{StaticResource Primary}"
+               HorizontalOptions="Center" />
+
+        <Label Text="Sistema de calculo de estadia no Hotel"
+       FontSize="18"
+       TextColor="{StaticResource Primary}" />
+
+        <Label Text="Desenvolvedor: Thiago Fernando"
+               FontSize="18"
+               TextColor="{StaticResource Primary}" />
+
+        <Label Text="Ano de Desenvolvimento: 2024"
+               FontSize="18"
+               TextColor="{StaticResource Primary}" />
+    </VerticalStackLayout>
+</ContentPage>
